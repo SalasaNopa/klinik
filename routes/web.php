@@ -18,5 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('testing', function () {
-    return profile('welcome');
+    return view('profil');
 });
